@@ -1,0 +1,52 @@
+{
+  "name": "defi-kids",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "0xsequence": "^0.36.1",
+    "@openzeppelin/contracts": "^4.4.2",
+    "@superfluid-finance/js-sdk": "^0.5.8",
+    "@superfluid-finance/sdk-core": "^0.2.0",
+    "@web3auth/web3auth": "^0.2.4",
+    "autoprefixer": "^10.4.2",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.3.0",
+    "hardhat": "^2.8.3",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.1.1",
+    "tailwind-merge": "^1.2.0",
+    "tailwindcss": "^3.0.18",
+    "web3modal": "^1.9.5"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@svgr/webpack": "^6.2.1",
+    "@types/mocha": "^9.1.0",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "^8.3.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typechain": "^3.0.0",
+    "typescript": "^4.5.5"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,ts,tsx,css,md}": "prettier --write"
+  }
+}
